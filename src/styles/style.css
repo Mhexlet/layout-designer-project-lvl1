@@ -1,1 +1,64 @@
 /** CSS STYLE **/
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Neucha';
+    src: url('../fonts/Neucha/Neucha-Regular.ttf');
+}
+.body-color-white {
+    background: #fff;
+}
+.body-color-translucent-white {
+    background: #d7ccc0;
+}
+.body-color-light {
+    background: #f5f4f0;
+}
+.body-color-main {
+    background: #fe8a02;
+}
+.body-color-main-dark {
+    background: #42413c;
+}
+.body-color-dark {
+    background: #2a2626;
+}
+.body-color-translucent-dark {
+    background: #908d8b;
+}
+.body-color-translucent-dark {
+    background: #908d8b;
+}
+.body-color-brown {
+    background:  #b09a81;
+}
+.body-color-blue {
+    background:  #1085c5;
+}
+.p-standart-size {
+    font-size: 16px;
+    line-height: 1.6em;
+}
+.p-standart-color {
+    color: #2A2626;
+}
+.h1-size {
+    font-size:72px;
+    line-height: 1.2em;
+}
+.h2-size {
+    font-size:60px;
+    line-height: 1.2em;
+}
+.h3-size {
+    font-size:34px;
+    line-height: 1.2em;
+}
+.section-size {
+    width: 1110px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
