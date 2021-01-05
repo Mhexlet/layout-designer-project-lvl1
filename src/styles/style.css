@@ -119,17 +119,27 @@ header::after, section::after {
     margin-top: 0;
 }
 button {
-    position: absolute;
+    position: relative;
     border: 0;
 }
 .button-one {
     background: #fe8a02;
     padding: 12px 24px 12px 24px;
-    left: 0;
+    margin-top: 40px;
+    left: 565px; 
 }
 .button-one-text {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
+}
+.section-2 {
+    background-color: #fff;
+}
+.section-font {
+    text-align: center;
+}
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
