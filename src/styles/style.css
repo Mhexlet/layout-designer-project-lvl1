@@ -45,6 +45,7 @@ body {
 }
 .p-standart-size {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.6em;
 }
 .p-standart-color {
@@ -111,13 +112,30 @@ header::after, section::after {
 }
 .header-image {
     height: 525px;
+    top: 0;
+    left: 0;
+    margin-top: 55px;
+    margin-left: 461px;
     display: block;
-    position: relative;
-    border: 1px solid black;
-    top: -100px;
+    position: absolute;
+    z-index: -1;
 }
 .columns-2 {
-    padding-top: 100px;
+    display: block;
+    position: relative;
+    padding-top: 215px;
     column-count: 2;
     column-gap: 30px;
+}
+.button-one {
+    background: #fe8a02;
+    padding: 12px 24px 12px 24px;
+    margin-left: 570px;
+    margin-top: 40px;
+    border: 0; 
+}
+.button-one-text {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
 }
