@@ -34,9 +34,6 @@ body {
 .body-color-translucent-dark {
     background: #908d8b;
 }
-.body-color-translucent-dark {
-    background: #908d8b;
-}
 .body-color-brown {
     background:  #b09a81;
 }
@@ -177,10 +174,23 @@ header, section, footer {
     text-decoration: none;
     display: block;
     height: 100%;
+    width: 100%;
+}
+.cards:hover h2 {
+    color: rgb(255, 255, 255);
+}
+.cards:hover p {
+    color: rgb(255, 255, 255);
+}
+.cards:hover {
+    background-color: #fe8a02;
+}
+.cards-head:hover {
+    background-color: transparent;
 }
 .cards {
     height: 350px;
-    width: calc((100% / 3) - 80px);;
+    width: calc((100% / 3) - 80px);
     background-color: rgb(255, 255, 255);
     margin: 10px 15px 10px 15px;
     padding: 24px;
@@ -188,6 +198,7 @@ header, section, footer {
 .cards-head {
     white-space: nowrap;
     background-color: transparent;
+
 }
 .cards h2 {
     font-size: 34px;
@@ -198,4 +209,19 @@ header, section, footer {
     padding-bottom: 40px;
     font-family: Neucha;
     line-height: 1;
+}
+.section-4 {
+    height: 1000px;
+}
+.table-section, tr, td {
+    border: 1px solid #000;
+    font-family: Neucha;
+}
+.p-24-lite-dark {
+    font-size: 24px;
+    color: #908d8b;
+}
+.p-34-dark {
+    font-size: 34px;
+    color: #2a2626;
 }
