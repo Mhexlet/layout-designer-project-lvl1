@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="section header">
+    <header class="background body-color-light">
         <div class="content">
             <main>
                 <h1><span class='body-color-main'>Когнитивные</span><br><span
@@ -19,22 +19,25 @@
                     програмировании</h1>
             </main>
             <div class="header-image"><img src="images/main.png" alt="Когнитивные искажения"></div>
-            <article class="columns-2 p-fonts p-standart-size p-standart-color">
-                <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но
-                    мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны.
-                    Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
-                <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
-                    продуктивности, багам и бесконечному разочарованию.
-                <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов,
-                    то
-                    сможем сломать и
-                    цикл, а остатки нейтрализовать.</p>
-                </p>
+            <article class="flex p-fonts p-standart-size p-standart-color">
+                <div class="column-text margin-top-185">
+                    <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью.
+                        Но
+                        мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые
+                        существенны.
+                        Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+                </div>
+                <div class="column-text margin-top-185">
+                    <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
+                        продуктивности, багам и бесконечному разочарованию.</p>
+                    <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов,
+                        то сможем сломать и цикл, а остатки нейтрализовать.</p>
+                </div>
             </article>
             <button class="button-one p-standart-size button-one-text">Подробнее</button>
         </div>
     </header>
-    <section class="section section-2 body-color-white">
+    <section class="body-color-white">
         <div class="content">
             <h1 class="font-center padding-but-30">Что же это такое,<br><span class="body-color-main">Когнитивные
                     искажения</span></h1>
@@ -45,7 +48,7 @@
                 frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
-    <section class="section body-color-main-dark section-3">
+    <section class="body-color-main-dark section-3">
         <div class="content">
             <div id="navigation">
                 <div class="cards cards-head">
@@ -111,27 +114,93 @@
             </div>
         </div>
     </section>
-    <section class="section section-4 header">
+    <section id="ikea-effect" class="background body-color-light">
         <div class="content">
-            <table class="table-section">
-                <tr>
-                    <td rowspan="3"><img src="images/1.png" alt=""></td>
-                    <td>
-                        <p class="p-24-lite-dark">Когнитивные искажения</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h2>Эффект ИКЕА</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="p-34-dark">Вы переоцениваете собственные решения, и, как следствие,
-                            недооцениваете решения других.</p>
-                    </td>
-                </tr>
-            </table>
+            <div class="grid">
+                <div class="column"><img class="images" src="images/1.png" alt=""></div>
+                <div class="column">
+                    <div class="grid-column">
+                        <p class="p-neucha p-secondary p-24px p-padding-null">Когнитивные искажения</p>
+                    </div>
+                    <div class="grid-column">
+                        <h1>Эффект ИКЕА</h1>
+                    </div>
+                    <div class="grid-column">
+                        <h3 class="p-padding-30">Вы переоцениваете собственные решения, и, как следствие, недооцениваете
+                            решения других.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-description p-fonts">
+                <div class="description-head description-head-text-style description-head-text-white body-color-brown">
+                    Как проявляется</div>
+                <div class="flex p-standart-size">
+                    <div class="column-text">Когнитивное искажение называется так из-за того, что потребители зачастую
+                        предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</div>
+                    <div class="column-text">Мы склонны переоцнивать наши собственные решения и недооценивать решения
+                        других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент
+                        вместо более удобного готового решения, вы понимаете, о чём я говорю.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="premature-optimization" class="background body-color-brown">
+        <div class="content">
+            <div class="grid font-color-white">
+                <div class="column">
+                    <div class="grid-column">
+                        <p class="p-neucha p-24px p-padding-null">Когнитивные искажения</p>
+                    </div>
+                    <div class="grid-column">
+                        <h1>Преждевременная оптимизация</h1>
+                    </div>
+                    <div class="grid-column">
+                        <h3 class="p-padding-30">Вы оптимизируете что-то задолго до того, как в этом появляется
+                            необходимость.</h3>
+                    </div>
+                </div>
+                <div class="column"><img src="images/2.png" alt=""></div>
+            </div>
+            <div class="grid-description p-fonts">
+                <div class="description-head description-head-text-brown description-head-text-style body-color-white">
+                    Как проявляется</div>
+                <div class="flex p-standart-size font-color-white">
+                    <div class="column-text">Если вы добавите аэродинамический спойлер к своему старому автомобилю
+                        вместо ремонта мотора, то автомобиль не станет быстрее.</div>
+                    <div class="column-text">Отличный пример: писать максимально подтюненный и высокопроизводительный
+                        код для всего лишь экспериментального проекта.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="premature-optimization" class="background body-color-light">
+        <div class="content">
+            <div class="grid">
+                <div class="column"><img class="images" src="images/1.png" alt=""></div>
+                <div class="column">
+                    <div class="grid-column">
+                        <p class="p-neucha p-secondary p-24px p-padding-null">Когнитивные искажения</p>
+                    </div>
+                    <div class="grid-column">
+                        <h1>Эффект ИКЕА</h1>
+                    </div>
+                    <div class="grid-column">
+                        <h3 class="p-padding-30">Вы переоцениваете собственные решения, и, как следствие, недооцениваете
+                            решения других.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-description p-fonts">
+                <div class="description-head description-head-text-style description-head-text-white body-color-brown">
+                    Как проявляется</div>
+                <div class="flex p-standart-size">
+                    <div class="column-text">Когнитивное искажение называется так из-за того, что потребители зачастую
+                        предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</div>
+                    <div class="column-text">Мы склонны переоцнивать наши собственные решения и недооценивать решения
+                        других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент
+                        вместо более удобного готового решения, вы понимаете, о чём я говорю.</div>
+                </div>
+            </div>
         </div>
     </section>
 

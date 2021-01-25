@@ -7,3 +7,6 @@ lint:
 
 deploy:
 	npx surge ./src/
+
+sync:
+	browser-sync start --server "src" --files "**/*" --no-notify
