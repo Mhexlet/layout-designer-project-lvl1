@@ -19,6 +19,10 @@ body {
   background-color: #fff;
 }
 
+.bc-primary {
+  background-color: #fe8a02;
+}
+
 .bc-white50 {
   background: #d7ccc0;
 }
@@ -31,7 +35,7 @@ body {
   background: #f5f4f0;
 }
 
-.bc-primary-dark {
+.tc-primary-dark {
   background: #42413c;
 }
 
@@ -47,7 +51,7 @@ body {
   background: #1085c5;
 }
 
-.bc-primary {
+.tc-primary {
   color: #fe8a02;
 }
 
@@ -89,6 +93,10 @@ h2 {
 h3 {
   font-size: 34px;
   line-height: 1.2em;
+}
+
+.lh-16 {
+  line-height: 1.6em;
 }
 
 h1,
@@ -139,6 +147,26 @@ h3 {
   text-align: center;
 }
 
+.button-style {
+  border: none;
+  border-radius: 0;
+}
+
+.button-style:hover {
+  background-color: #ea7600;
+}
+
+.button-one {
+  margin-top: 30px;
+  padding: 12px 24px 12px 24px;
+}
+
+.text-button {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -176,8 +204,24 @@ h3 {
   padding: 55px;
 }
 
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pr-55 {
+  padding-right: 55px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.mt-38 {
+  margin-top: 38px;
+}
+
+.mt-65 {
+  margin-top: 65px;
 }
 
 .jc-center {
@@ -285,24 +329,6 @@ footer {
   color: rgb(255, 255, 255);
 }
 
-.button-one {
-  margin-top: 30px;
-  padding: 12px 24px 12px 24px;
-
-  background: #fe8a02;
-  border: 0;
-}
-
-.button-one:hover {
-  background-color: #ea7600;
-}
-
-.text-button {
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .video {
   position: relative;
 
@@ -369,10 +395,54 @@ footer {
   display: block;
 }
 
-.input-form {
-  width: 415px;
+.input-style {
+  color: #757575;
+  font-size: 13px;
+  font-style: 'Open sans';
+
+  border: 1px solid #e3e3e3;
+  border-radius: 0;
+}
+
+.input-position {
+  display: inline;
+  box-sizing: border-box;
+
+  width: calc(100% - 70px);
+  height: 50px;
+
+  padding: 15px;
+}
+
+.input-form:active {
+  border: 1px solid #ca0c0c;
+  border-radius: 0;
 }
 
 .button-send {
-  background-color: #fe8a02;
+  position: relative;
+
+  float: right;
+  width: 70px;
+  height: 50px;
+
+  margin: 0;
+}
+
+.button-send::before {
+  position: absolute;
+
+  width: 50%;
+
+  height: 50%;
+
+  background-image: url(../images/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: '';
+}
+
+.text-footer a {
+  color: #1085c5;
 }

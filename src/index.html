@@ -14,7 +14,7 @@
     <main>
         <header class="background bc-light">
             <div class="content">
-                <h1><span class="bc-primary">Когнитивные</span><br><span class="bc-primary">искажения</span><br>в
+                <h1><span class="tc-primary">Когнитивные</span><br><span class="tc-primary">искажения</span><br>в
                     програмировании</h1>
                 <img class="header-image" src="images/main.png" alt="Когнитивные искажения">
                 <article class="flex mt-185">
@@ -31,7 +31,9 @@
                             продуктивности, багам и бесконечному разочарованию.</p>
                         <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов,
                             то сможем сломать и цикл, а остатки нейтрализовать.</p>
-                        <button class="button-one text-button">Подробнее</button>
+                        <form action="#navigation">
+                            <button class="button-one text-button button-style bc-primary">Подробнее</button>
+                        </form>
 
                     </div>
                 </article>
@@ -39,7 +41,7 @@
         </header>
         <section>
             <div class="content">
-                <h1 class="text-center mb-30">Что же это такое,<br><span class="bc-primary">Когнитивные
+                <h1 class="text-center mb-30">Что же это такое,<br><span class="tc-primary">Когнитивные
                         искажения</span></h1>
                 <p class="text-center mb-30">Что такое когнитивные
                     искажения. Petrovna
@@ -48,39 +50,39 @@
                     frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
-        <section id="navigation" class="bc-primary-dark section-3">
+        <section id="navigation" class="tc-primary-dark section-3">
             <div class="content">
                 <div class="flex">
                     <div class="col-30 cards-head">
-                        <h2 class="bc-primary mt-0">5 когнитивных <br>искажений<br><span class="tc-white">о
+                        <h2 class="tc-primary mt-0">5 когнитивных <br>искажений<br><span class="tc-white">о
                                 существовании<br>которых стоит<br>помнить</span></h2>
                     </div>
                     <a href="#ikea-effect" class="col-30 cards link-cards">
                         <p class="number">1</p>
-                        <h3 class="bc-primary">Эффект ИКЕА</h3>
+                        <h3 class="tc-primary">Эффект ИКЕА</h3>
                         <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                     </a>
                     <a href="#premature-optimization" class="col-30 cards link-cards">
                         <p class="number">2</p>
-                        <h3 class="bc-primary">Преждевременная оптимизация</h3>
+                        <h3 class="tc-primary">Преждевременная оптимизация</h3>
                         <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                     </a>
                     <a href="#distortion-of-novelty" class="col-30 cards link-cards">
                         <p class="number">3</p>
-                        <h3 class="bc-primary">Искажение новизны</h3>
+                        <h3 class="tc-primary">Искажение новизны</h3>
                         <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более
                             старые.</p>
                     </a>
                     <a href="#hyperbolic-depreciation" class="col-30 cards link-cards">
                         <p class="number">4</p>
-                        <h3 class="bc-primary">Гиперболическое обесценивание</h3>
+                        <h3 class="tc-primary">Гиперболическое обесценивание</h3>
                         <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас,
                             но
                             доступную в будущем.</p>
                     </a>
                     <a href="#errors-in-planning" class="col-30 cards link-cards">
                         <p class="number">5</p>
-                        <h3 class="bc-primary">Ошибка планирования</h3>
+                        <h3 class="tc-primary">Ошибка планирования</h3>
                         <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
                     </a>
                 </div>
@@ -199,20 +201,27 @@
     </main>
     <footer>
         <div class="content">
-            <div class="flex bc-primary-dark tc-white mp-0">
+            <div class="flex tc-primary-dark tc-white mp-0">
                 <div class="col-50 font-neucha text-34px">
                     <p class="mp-0 p-55">Хотите узнать больше?<br>
                         Подпишитесь наобновления
                     </p>
                 </div>
                 <div class="col-50">
-                    <form action="">
-                        <label class="text-18px label-form" for="name">Электронная почта</label>
-                        <input class="input-form" id="name" type="text" placeholder="Ваша электронная почта">
-                        <button сlass="button-send">Green</button>
-                        <p class="text-12px">Подписываясь, вы принимаете правила сервиса</p>
+                    <form class="pl-15 pr-55" action="">
+                        <label class="text-18px label-form mt-38 lh-16" for="name">Электронная почта</label>
+                        <input class="input-style input-position" id="name" type="text"
+                            placeholder="Ваша электронная почта"><button
+                            class="button-send button-style bc-primary"></button>
+                        <p class="text-12px mp-0">Подписываясь, вы принимаете <a class="tc-white" href="">правила
+                                сервиса</a></p>
                     </form>
                 </div>
+            </div>
+            <div class="text-center text-14px text-footer">
+                <p class="mt-65">© 2020 Константин Константинопольский</p>
+                <p>По материалам статьи <a href="">Yash Ranadive Cognitive Biases in Programming</a></p>
+                <a href="">Курсы программирования Hexlet</a>
             </div>
         </div>
     </footer>
