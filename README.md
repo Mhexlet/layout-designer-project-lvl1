@@ -17,3 +17,4 @@ $ make install
 ```sh
 make lint
 ```
+site: tiny-night.surge.sh
