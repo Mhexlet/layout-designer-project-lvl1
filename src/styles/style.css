@@ -13,7 +13,7 @@ body {
   color: #2a2626;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.6em;
 
   background-color: #fff;
@@ -76,7 +76,7 @@ body {
 }
 
 .font-neucha {
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 }
 
@@ -95,10 +95,6 @@ h3 {
   line-height: 1.2em;
 }
 
-.lh-16 {
-  line-height: 1.6em;
-}
-
 h1,
 h2,
 h3 {
@@ -109,7 +105,7 @@ h3 {
   padding: 0;
 
   font-weight: normal;
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   font-style: normal;
 }
 
@@ -119,7 +115,7 @@ h3 {
   font-weight: 700;
 
   font-size: 14px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 
@@ -171,8 +167,10 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
+}
 
-  box-shadow: 0 0 0 1px gray;
+.al-item-center {
+  align-items: center;
 }
 
 .mp-0 {
@@ -268,10 +266,7 @@ footer {
 
   width: 1110px;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-
-  box-shadow: 0 0 0 1px green;
+  padding: 100px 15px;
 }
 
 .col-100 {
@@ -357,7 +352,7 @@ footer {
   margin-bottom: 40px;
 
   font-size: 60px;
-  font-family: Neucha;
+  font-family: 'Neucha', sans-serif;
   line-height: 1;
 }
 
@@ -432,13 +427,14 @@ footer {
 .button-send::before {
   position: absolute;
 
-  width: 50%;
+  width: 24px;
 
-  height: 50%;
+  height: 24px;
 
   background-image: url(../images/send.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  transform: translate(-50%, -50%);
 
   content: '';
 }
