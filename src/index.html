@@ -14,32 +14,28 @@
     <main>
         <header class="background bc-light">
             <div class="content">
-                <section>
-                    <h1><span class="tc-primary">Когнитивные</span><br><span class="tc-primary">искажения</span><br>в
-                        програмировании</h1>
-                    <div class="flex mt-185">
-                        <div class="col-50">
-                            <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей
-                                продуктивностью.
-                                Но
-                                мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые
-                                существенны.
-                                Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
-                        </div>
-                        <div class="col-50">
-                            <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной
-                                потере
-                                продуктивности, багам и бесконечному разочарованию.</p>
-                            <p>Если мы сможем минимизировать воздействие одного или нескольких из этих
-                                факторов,
-                                то сможем сломать и цикл, а остатки нейтрализовать.</p>
-                            <form action="#navigation">
-                                <button class="button-one text-button button-style bc-primary">Подробнее</button>
-                            </form>
-                        </div>
+                <h1><span class="tc-primary">Когнитивные</span><br><span class="tc-primary">искажения</span><br>в
+                    програмировании</h1>
+                <div class="flex mt-185">
+                    <div class="col-50">
+                        <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей
+                            продуктивностью.
+                            Но
+                            мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые
+                            существенны.
+                            Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
                     </div>
-                    <img class="header-image" src="images/main.png" alt="Когнитивные искажения">
-                </section>
+                    <div class="col-50">
+                        <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной
+                            потере
+                            продуктивности, багам и бесконечному разочарованию.</p>
+                        <p>Если мы сможем минимизировать воздействие одного или нескольких из этих
+                            факторов,
+                            то сможем сломать и цикл, а остатки нейтрализовать.</p>
+                        <a class="link-buttom bc-primary text-button" href="#navigation">Подробнее</a>
+                    </div>
+                </div>
+                <img class="header-image" src="images/main.png" alt="Когнитивные искажения">
             </div>
         </header>
         <section>
@@ -205,17 +201,18 @@
     <footer>
         <div class="content">
             <div class="flex tc-primary-dark tc-white mp-0 al-item-center p-55">
-                <div class="col-50 font-neucha text-34px">
-                    <p class="mp-0">Хотите узнать больше?<br>
-                        Подпишитесь наобновления
-                    </p>
+                <div class="col-50 font-neucha">
+                    <h3>Хотите узнать больше?<br>
+                        Подпишитесь наобновления</h3>
                 </div>
                 <div class="col-50">
                     <form class="pl-15" action="#">
-                        <label class="text-18px label-form" for="name">Электронная почта</label>
-                        <input class="input-style input-position" id="name" type="text"
-                            placeholder="Ваша электронная почта"><button
-                            class="button-send button-style bc-primary"></button>
+                        <label class="text-18px" for="name">Электронная почта</label>
+                        <div class="flex-form">
+                            <input class="input-style" id="name" type="text"
+                                placeholder="Ваша электронная почта"><button
+                                class="button-send button-style bc-primary"></button>
+                        </div>
                         <p class="text-12px mp-0">Подписываясь, вы принимаете <a class="tc-white" href="">правила
                                 сервиса</a></p>
                     </form>
@@ -224,7 +221,7 @@
             <div class="text-center text-14px text-footer">
                 <p class="mt-65">© 2020 Константин Константинопольский</p>
                 <p>По материалам статьи <a href="">Yash Ranadive Cognitive Biases in Programming</a></p>
-                <a href="">Курсы программирования Hexlet</a>
+                <p><a href="">Курсы программирования Hexlet</a></p>
             </div>
         </div>
     </footer>

@@ -153,9 +153,18 @@ h3 {
   background-color: #ea7600;
 }
 
-.button-one {
+.link-buttom {
+  display: inline-block;
   margin-top: 30px;
   padding: 12px 24px 12px 24px;
+
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.link-buttom:hover {
+  background-color: #ea7600;
 }
 
 .text-button {
@@ -170,6 +179,10 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
+}
+
+.flex-form {
+  display: flex;
 }
 
 .al-item-center {
@@ -379,6 +392,8 @@ footer {
 
 .images {
   vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .description-head {
@@ -402,11 +417,9 @@ footer {
   color: #b09a81;
 }
 
-.label-form {
-  display: block;
-}
-
 .input-style {
+  width: 100%;
+
   color: #757575;
   font-size: 13px;
   font-style: 'Open sans';
@@ -415,29 +428,14 @@ footer {
   border-radius: 0;
 }
 
-.input-position {
-  display: inline;
-  box-sizing: border-box;
-
-  width: calc(100% - 70px);
-  height: 50px;
-
-  padding: 15px;
-}
-
 .input-form:active {
   border: 1px solid #ca0c0c;
   border-radius: 0;
 }
 
 .button-send {
-  position: relative;
-
-  float: right;
   width: 70px;
   height: 50px;
-
-  margin: 0;
 }
 
 .button-send::before {
