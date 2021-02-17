@@ -251,13 +251,6 @@ h3 {
   justify-content: center;
 }
 
-header,
-section,
-footer {
-  margin: auto;
-  overflow-x: hidden;
-}
-
 .background {
   position: relative;
 }
