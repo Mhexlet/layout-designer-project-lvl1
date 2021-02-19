@@ -120,7 +120,7 @@ h3 {
   font-style: normal;
 }
 
-.h3-description {
+.title-description {
   padding: 5px 10px;
 
   font-weight: 700;
@@ -353,11 +353,11 @@ h3 {
   background-color: #fe8a02;
 }
 
-.card:hover .card-h3 {
+.card-title:hover {
   color: rgb(255, 255, 255);
 }
 
-.card-h3:hover {
+.card:hover .card-title {
   color: rgb(255, 255, 255);
 }
 
