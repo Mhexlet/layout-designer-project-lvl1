@@ -22,7 +22,7 @@ body {
 }
 
 img {
-  max-width: 100;
+  max-width: 100%;
   height: auto;
 
   vertical-align: middle;
@@ -60,9 +60,6 @@ h4,
 .h2,
 .h3,
 .h4 {
-  position: relative;
-  z-index: 1;
-
   margin: 0;
   padding: 0;
 
@@ -73,12 +70,16 @@ h4,
 
 /* Стили сетки */
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.container {
+  position: relative;
+
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 15px;
 }
 
-.margin-row {
+.row {
+  display: flex;
   margin: 0 -15px;
 }
 
@@ -89,11 +90,6 @@ h4,
 .col-vertial-offsets {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.col-horizontal-offset {
-  margin-right: 15px;
-  margin-left: 15px;
 }
 
 .col-100 {
@@ -120,6 +116,10 @@ h4,
   text-transform: uppercase;
 }
 
+.background-section {
+  position: relative;
+}
+
 .background-section::before {
   position: absolute;
 
@@ -144,20 +144,12 @@ h4,
   height: 525px;
 }
 
-.container {
-  position: relative;
-
-  width: 1110px;
-  margin: 0 auto;
-  padding: 100px 15px;
-}
-
 .flex-grow-1 {
   flex-grow: 1;
 }
 
-.no-wrap {
-  flex-wrap: nowrap;
+.wrap {
+  flex-wrap: wrap;
 }
 
 .card {
@@ -204,11 +196,6 @@ h4,
   font-size: 60px;
   font-family: 'Neucha', sans-serif;
   line-height: 1;
-}
-
-.grid {
-  display: flex;
-  margin: 0 -15px;
 }
 
 .shadow {
@@ -306,6 +293,14 @@ h4,
 }
 
 /* Атомарные стили */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
 
 .overflow-x-hidden {
   overflow-x: hidden;
@@ -405,6 +400,10 @@ h4,
 
 .pos-r {
   position: relative;
+}
+
+.z-1 {
+  z-index: 1;
 }
 
 .m-0 {
